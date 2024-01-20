@@ -1,0 +1,56 @@
+site_name: HomuraMC Docs
+copyright: "&copy; 2024 HomuraMC"
+repo_name: sonyakun/HomuraMC-Docs
+repo_url: https://github.com/sonyakun/HomuraMC-Docs
+
+theme:
+  name: 'material'
+  logo: https://github.com/HomuraMC.png
+  favicon: 'https://github.com/HomuraMC.png'
+  palette:
+    - scheme: default
+      primary: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.top
+
+plugins:
+  - search:
+      lang: 'ja'
+  - privacy
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      use_pygments: true
+      noclasses: true
+      pygments_style: monokai
+      linenums: true
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+
+
+extra:
+  homepage: https://HomuraMC.github.io
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: 日本語
+      link: /ja/
+      lang: ja
