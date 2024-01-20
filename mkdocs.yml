@@ -1,7 +1,10 @@
 site_name: HomuraMC Docs
+site_url: https://sonyakun.github.io/HomuraMC-Docs/
+
 copyright: "&copy; 2024 HomuraMC"
 repo_name: sonyakun/HomuraMC-Docs
 repo_url: https://github.com/sonyakun/HomuraMC-Docs
+edit_uri: edit/master/
 
 theme:
   name: 'material'
